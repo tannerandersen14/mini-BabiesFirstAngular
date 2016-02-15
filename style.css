@@ -1,0 +1,28 @@
+html {
+  background: green;
+}
+.friends {
+  background: red;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  border: black solid 10px;
+  padding: 10px;
+  color: yellow;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10px;
+}
+h1 {
+  color: black;
+  font-weight: bold;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border: black 5px solid;
+  font-style: italic;
+  color: white
+
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+  <html ng-app='friendsList' ng-controller='mainCtrl'>
+    <head>
+      <link rel='stylesheet' type='text/css' href='style.css'/>
+    </head>
+    <body>
+      <h1>My Friends</h1>
+      <div class='friends' ng-repeat="friend in friends">
+        <p> {{friend}} </p>
+      </div>
+
+
+
+
+    </body>
+    <script src='angular.min.js'></script>
+    <script src='js/app.js'></script>
+    <script src='js/mainCtrl.js'></script>
+  </html>
